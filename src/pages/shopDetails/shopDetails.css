@@ -1,0 +1,245 @@
+.shopDetails .mainPro{
+    box-sizing: border-box;
+    height: 400px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-color: rgb(170, 169, 169);
+    position: relative;
+}
+.shopDetails .mainPro .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+    flex-direction: column;
+    color: #000;
+    opacity: 0.8;
+}
+.shopDetails .bigImg {
+    width: inherit;
+}
+.shopDetails .smallImg {
+    width: inherit;
+}
+.shopDetails .swiperDiv {
+    width: 50%;
+    margin: inherit;
+}
+.shopDetails .almostMain {
+    padding: 100px 80px;
+    display: flex;
+    gap: 50px;
+}
+.shopDetails .almostMain h1 {
+    font-family: cursive;
+    opacity: 0.7;
+    margin-bottom: 20px;
+}
+.shopDetails .almostMain .info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.shopDetails .almostMain .info .stars {
+    color: #9dca00;
+}
+.shopDetails .blablabl {
+    opacity: 0.7;
+}
+.shopDetails .price {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 0;
+}
+.shopDetails .price .active {
+    font-weight: bold;
+    font-size: 18px;
+    opacity: 0.8;
+}
+.shopDetails .price .unActive {
+    text-decoration: line-through;
+    font-size: 15px;
+    opacity: 0.7;
+}
+.shopDetails .Availability {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.shopDetails .Availability h3 {
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.8;
+}
+.shopDetails .Availability small {
+    color: #9dca00;
+}
+.shopDetails hr {
+    margin: 20px 0;
+    opacity: 0.5;
+}
+.shopDetails .box p {
+    opacity: 0.7;
+    line-height: 1.5;
+    font-size: 15px;
+}
+.shopDetails .POrM {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    border: 1px solid #bdbdbd;
+    width: fit-content;
+    padding: 12px 10px;
+    user-select: none;
+}
+.shopDetails .POrM h2 {
+    opacity: 0.5;
+    cursor: pointer;
+}
+.shopDetails .buttons {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.shopDetails .buttons .add {
+    border: 2px solid #9dca00;
+    color: #fff;
+    display: block;
+    font-weight: 700;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 20px;
+    padding: 0 41px;
+    background: #9dca00;
+    cursor: pointer;
+}
+.shopDetails .buttons .add:hover {
+    background: transparent;
+    color: #2b343b;
+}
+.shopDetails .buttons svg {
+    border: 2px solid #9dca00;
+    color: #9dca00;
+    float: left;
+    font-size: 18px;
+    height: 46px;
+    line-height: 50px;
+    padding: 0 13px;
+    cursor: pointer;
+}
+.shopDetails .buttons svg:hover {
+    background: #9dca00;
+    color: #fff;
+}
+.shopDetails .Categories, .shopDetails .Tags {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.shopDetails  .Categories h3, .shopDetails .Tags h3 {
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.8;
+}
+.shopDetails .icons ul {
+    margin-top: 20px;
+    padding: 0;
+    display: flex;
+    gap: 8px;
+}
+.shopDetails .icons ul li {
+    list-style: none;
+    cursor: pointer;
+    color: #000;
+    opacity: 0.7 
+}
+.shopDetails .icons ul li svg {
+    background: #8080804d;
+    padding: 6px;
+    border-radius: 150px;
+}
+.shopDetails .icons ul li svg:hover {
+    background-color: #9dca00;
+    color: white;
+}
+.shopDetails .tabs {
+    padding: 0 80px 80px ;
+}
+/* Actully i got these css style type from the browser so if you want say bad word to me, say it to the browser 
+its Google Chrome by the way, i just told you to dont say it to FireFox:) */
+#simple-tabpanel-2 > div > p > div > img {
+    width: 120px;
+    height: 120px;
+}
+#simple-tabpanel-2 > div > p > div {
+    display: flex;
+    gap: 30px;
+}
+#simple-tabpanel-2 > div > p > div > div > h4 {
+    opacity: 0.8;
+    margin-bottom: 5px;
+}
+#simple-tabpanel-2 > div > p > div > div > h4 > small {
+    opacity: 0.6;
+}
+.css-19kzrtu {
+    padding: 20px 0 !important;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    color: #9dca00 !important;
+}
+.css-1aquho2-MuiTabs-indicator {
+    background-color: #9dca00 !important;
+}
+#simple-tabpanel-2 > div > p > div > div > p, #simple-tabpanel-1 > div > p, #simple-tabpanel-0 > div > p {
+    opacity: 0.6;
+} 
+ /*Medai  */
+@media (max-width: 991px) {
+    .shopDetails .almostMain {
+        padding: 100px 20px;
+    }
+    .shopDetails .tabs {
+        padding: 100px 20px;
+    }
+    .shopDetails .box .info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+@media (max-width: 767px) {
+    .shopDetails .almostMain {
+        flex-direction: column;
+        padding: 80px 10px;
+    }
+    .shopDetails .tabs {
+        padding: 80px 10px;
+    }
+    .shopDetails .swiperDiv {
+        width: 100%;
+    }
+    .css-heg063-MuiTabs-flexContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .css-1aquho2-MuiTabs-indicator {
+        display: none !important;
+    }
+    #simple-tabpanel-2 > div > p > div {
+        flex-direction: column;
+    }
+}
+@media(max-width: 576px) {
+    .MuiTypography-root {
+        font-size: 12px !important;
+    }
+}

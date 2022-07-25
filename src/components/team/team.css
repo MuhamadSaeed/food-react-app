@@ -1,0 +1,81 @@
+.team {
+    padding: 100px 120px;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.team h4 {
+    color: #82b440;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.team h1 {
+    font-family: cursive;
+    font-size: 35px;
+    margin-bottom: 80px;
+    opacity: 0.7;
+}
+.team .boxs {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.team .box {
+    width: fit-content;
+    background: #fff;
+    padding: 50px 40px 45px;
+    position: relative;
+    box-shadow: 0 4px 20px 0 rgb(0 0 0 / 7%);
+}
+.team .box img {
+    border-radius: 50%;
+    width: 214px;
+    height: auto;
+    border: 5px solid #fff;
+    box-shadow: 0 1px 7px 2px rgb(0 0 0 / 12%);
+    max-height: 220px;
+}
+.team .box h2 {
+    font-family: cursive;
+    font-size: 35px;
+    opacity: 0.7;
+    margin: 20px 0 0;
+}
+.team small {
+    opacity: 0.6;
+}
+.team .icons svg {
+    color: #9dca00;
+    margin: 10px 2px 0;
+    font-size: 15px;
+    border: 1px solid #9dca00;
+    line-height: 29px;
+    border-radius: 50%;
+    padding: 6px;
+    cursor: pointer;
+}
+.team .icons svg:hover {
+    background-color: #9dca00;
+    color: white;
+}
+.team .box:hover {
+    box-shadow: none;
+}
+.team .box:hover img {
+    transform: rotateY(360deg);
+    transition: 1s;
+}
+@media (max-width: 991px) {
+    .team {
+        padding: 60px 20px;
+    }
+    .team .boxs {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 767px) {
+    .team .box {
+        padding: 30px 20px;
+    }
+}

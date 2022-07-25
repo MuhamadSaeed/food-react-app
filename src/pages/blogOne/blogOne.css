@@ -1,0 +1,120 @@
+.blogone .mainBlogOne {
+    box-sizing: border-box;
+    height: 400px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-color: rgb(170, 169, 169);
+    position: relative;
+}
+.blogone .mainBlogOne .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+    flex-direction: column;
+    color: #000;
+    opacity: 0.8;
+}
+.blogone .boxblog {
+    width: calc(100% );
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.blogone .mainmainmian {
+    text-align: center;
+    padding: 100px 100px;
+    background: #f1f6fa;
+}
+.blogone .mainmainmian .titles h1 {
+    opacity: 0.7;
+    font-size: 44px;
+    font-family: cursive;
+    margin-bottom: 50px;
+}
+.blogone .mainmainmian .titles h4 {
+    color: #82b440;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.blogone .boxsblog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    justify-content: center;
+    position: relative;
+}
+.blogone .smBoxsblog {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.blogone .smBoxblog {
+    background: #fff;
+    padding: 25px 30px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.blogone .smBoxblog h1 {
+    font-size: 25px;
+    opacity: 0.8;
+    font-family: cursive;
+    margin-bottom: 20px;
+}
+.blogone .infoblog {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.blogone .dateblog {
+    display: flex;
+    align-items: center;
+    color: rgb(85, 84, 84);
+    gap: 2px;
+}
+.blogone .infoblog a {
+    color: #9dca00;
+    text-transform: capitalize;
+    font-size: 16px;
+    text-decoration: none;
+}
+.blogone .infoblog a:hover {
+    text-decoration: underline;
+}
+.blogone .boxsblog img {
+    width: 100%;
+    transition: 0.3s;
+}
+.blogone .boxsblog .imgblog {
+    overflow: hidden;
+    width: 100%;
+}
+.blogone .boxsblog img:hover {
+    transform: scale(1.3) rotate(8deg);
+}
+
+ /* Media */
+@media (max-width: 991px) {
+    .blogone .boxsblog {
+        grid-template-columns: repeat(2, 1fr)
+    }
+}
+@media (max-width: 767px) {
+    .blogone .mainmainmian {
+        padding: 100px 20px;
+    }
+    .blogone .boxsblog {
+        grid-template-columns: repeat(2, 1fr)
+    }
+}
+@media (max-width: 576px) {
+    .blogone .boxsblog {
+        grid-template-columns: 1fr
+    }
+}

@@ -1,0 +1,144 @@
+nav {
+    background-color: white;
+    display: flex;
+    padding: 15px 120px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 10000;
+}
+nav .main {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+nav .links {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+nav .links:after {
+    content: "";
+    width: 1px;
+    height: 30px;
+    background-color: darkgray;
+} 
+nav .links li {
+    list-style-type: none;
+    opacity: 0.7;
+    cursor: pointer;
+    transition: 0.1s;
+    position: relative;
+}
+nav .links li:hover {
+    color: #9dca00;
+    opacity: 1;
+}
+nav .icons {
+    display: flex;
+    gap: 6px;
+
+}
+nav .icons .icon svg{
+    background: lightgray;
+    padding: 6px;
+    border-radius: 50%;
+    color: white;
+    font-size: 26px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+nav .icons .icon svg:hover {
+    background-color: #9dca00;
+}
+nav .toggle {
+    display: none;
+}
+nav .toggle svg {
+    font-size: 30px;
+    cursor: pointer;
+}
+.css-advny6-MuiPopper-root {
+    z-index: 10;
+}
+nav .ulA {
+    position: absolute;
+    top: 50px;
+    z-index: 25;
+    background: white;
+    padding: 25px 25px 15px;
+    box-shadow: 1px 1px 5px 2px #00000012;
+    width: max-content;
+    height: 0px;
+    display: none;
+    transition: 0.5s;
+    top: 30px;
+}
+nav li {
+    color:black;
+}
+nav .ulA::before {
+    content: "";
+    border: 10px solid ;
+    border-color: transparent transparent gray transparent;
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    top: -20px;
+    left: 0;
+}
+nav ul.links .mainLi:hover .ulA{
+    height: auto;
+    display: block;
+}
+nav ul.links .mainLi:hover .ulA a li {
+    padding-bottom: 10px;
+}
+.searchThings {
+    position: absolute;
+    bottom: -40px;
+    z-index: 2;
+    right: 130px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+.searchThings input {
+    all: unset;
+    border: 1px solid #dfdfdf;
+    padding: 0 12px;
+    height: calc(100% - 1px);
+    background: white;
+    width: 230px;
+    font-size: 12px;
+}
+.searchThings svg {
+    cursor: pointer;
+    background: #9dca00;
+    color: white;
+    padding: 0 12px;
+    height: 100%;
+}
+@media (max-width: 991px) {
+    nav .toggle {
+        display: block;
+    }
+    nav .links {
+        display: none;
+    }
+}
+@media (max-width: 991px) {
+    nav {
+        padding: 15px 20px;
+    }
+}
+@media (max-width: 767px) {
+    nav .icons{
+        display: none;
+    }
+}
+nav a {
+    text-decoration: none;
+}

@@ -1,0 +1,107 @@
+.shop {
+    padding: 100px 120px;
+    text-align: center;
+}
+.shop h4 {
+    color: #82b440;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.shop h1 {
+    font-family: cursive;
+    font-size: 35px;
+    margin-bottom: 80px;
+    opacity: 0.7;
+}
+.shop .boxs {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    position: relative;
+}
+.shop .boxs .box {
+    text-align: center;
+    box-shadow: 0 0 12px 0 #f0ebeb;
+    padding: 30px 10px 40px;
+    background: #f1f6fa;
+    width: 210px;
+    position: relative;
+}
+.shop .boxs .box img {
+    max-width: 100%;
+}
+.shop .box h3 {
+    font-family: cursive;
+    margin: 20px 0 12px;
+    opacity: 0.7;
+    position: relative;
+    z-index: 22;
+}
+.shop .box:hover h3 {
+    color: #f0ebeb;
+}
+.shop .box .stars svg {
+    color: #9dca00;
+}
+.shop .box .num {
+    margin-top: 12px;
+    opacity: 0.8;
+}
+.shop .box small {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    background: #9dca00;
+    color: white;
+    padding: 6px 20px;
+    border-radius: 40px;
+}
+.shop .box  .over {
+    transition: 0.2s;
+}
+.shop .box:hover .over {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(157,202,0,.55);
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+.shop .box .icons {
+    position: absolute;
+    top: 16px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    opacity: 0;
+    transition: 0.3s;
+}
+.shop .box:hover .icons {
+    opacity: 1;
+}
+.shop .box .icons svg {
+    color: #9dca00;
+    background: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.shop .box .icons svg:last-child {
+    margin-top: -44px;
+    transition: 0.3s;
+}
+.shop .box:hover .icons svg:last-child {
+    margin-top: 6px;
+}  
+@media (max-width: 991px) {
+    .shop {
+        padding: 60px 20px;
+    }
+    .shop .boxs {
+        flex-wrap: wrap;
+    }
+}

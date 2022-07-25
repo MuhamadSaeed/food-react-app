@@ -1,0 +1,105 @@
+aside {
+    width: 400px;
+    position: fixed;
+    z-index: 100000;
+    right: -400px;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    transition: 0.3s;
+}
+.right0 {
+    right: 0 !important;
+}
+aside .close {
+    font-size: 30px;
+    position: relative;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 58px;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    border: none;
+    background: #343538;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+aside .main {
+    width: 340px;
+    background: white;
+}
+aside .search input {
+    width: 100%;
+    height: 58px;
+    color: #343538;
+    background: #e6e6e6;
+    border: none;
+    padding: 0 30px;
+    outline: none;
+    font-size: 18px;
+}
+aside .links {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+aside .MuiButtonBase-root {
+    padding: 0;
+}
+aside .MuiPaper-root {
+    box-shadow: none;
+}
+aside .MuiPaper-root::before {
+    display: none;
+}
+aside .more {
+    padding: 30px;
+}
+aside .boxs {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+aside .boxs .box {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #333;
+}
+aside .boxs .box svg {
+    color: #9dca00;
+    font-size: 18px;
+    cursor: pointer;
+}
+aside .boxs .box ul {
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin-top: 10px;
+}
+aside .boxs .box li {
+    list-style: none;
+}
+.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root {
+    min-height: auto !important;
+}
+.css-o4b71y-MuiAccordionSummary-content {
+    margin: 0 !important;
+}
+aside a {
+    text-decoration: none;
+    color: #333;
+}
+aside a:hover {
+    text-decoration: underline;
+    color: #9dca00;
+}
+aside li {
+    list-style: none;
+}

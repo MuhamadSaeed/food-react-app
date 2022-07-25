@@ -1,0 +1,45 @@
+.about {
+    padding: 80px 120px;
+    display: flex;
+    gap: 30px;
+}
+.about img {
+    width: 50%;
+    max-height: 430px;
+}
+.about h5 {
+    color: #82b440;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.about h1 {
+    opacity: 0.7;
+    font-family: cursive;
+    margin-bottom: 40px;
+}
+.about h4 {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+.about p {
+    color: #404040d9;
+}
+.about hr {
+    margin: 50px 0;
+}
+@media (max-width: 991px) {
+    .about {
+        padding: 60px 20px;
+        flex-direction: column;
+    }
+    .about h1 {
+        font-size: 18px;
+    }
+    .about img {
+        width: 100%;
+        max-height: initial;
+    }
+}

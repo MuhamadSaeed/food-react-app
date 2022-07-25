@@ -1,0 +1,394 @@
+.blogDetails button {
+    border: 2px solid transparent !important;
+}
+.blogDetails button:hover {
+    border-color: #9dca00 !important;
+    background-color: transparent !important;
+    color: #515050 !important;
+    border-radius: 0;
+}
+.blogDetails .mainBlogTwo {
+    box-sizing: border-box;
+    height: 400px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-color: rgb(170, 169, 169);
+    position: relative;
+}
+.blogDetails .mainBlogTwo .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+    flex-direction: column;
+    color: #000;
+    opacity: 0.8;
+}
+.blogDetails .almostMain {
+    padding: 100px 80px;
+    display: flex;
+    gap: 30px;
+}
+.blogDetails .almostMain .sections {
+    width: 60%;
+}
+.blogDetails .almostMain .section {
+    width: 100%;
+}
+.blogDetails .almostMain .img {
+    width: 100%;
+    overflow: hidden;
+}
+.blogDetails .almostMain .img img{
+    width: 100%;
+    transition: 0.3s;
+}
+.blogDetails .almostMain .img img:hover {
+    transform: scale(1.3) rotate(7deg);
+}
+.blogDetails .almostMain .someInfo {
+    border: 1px solid rgb(175, 175, 175);
+    padding: 30px;
+    border-top: none;
+    top: -6px;
+    position: relative;
+}
+.blogDetails small {
+    opacity: 0.6;
+}
+.blogDetails .someInfo h1 {
+    font-family: cursive;
+    font-size: 22px;
+    margin: 20px 0;
+    color: #9dca00;
+}
+.blogDetails .someInfo p {
+    margin: 20px 0;
+    line-height: 1.6;
+    color: gray;
+    font-size: 15px;
+}
+.blogDetails .someInfo button {
+    padding: 15px 35px 15px;
+    color: #fff;
+    vertical-align: middle;
+    box-shadow: 0 0 1px transparent;
+    background: #9dca00;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+}
+.blogDetails .package:not(:last-child) {
+    padding-bottom: 20px;
+}
+.blogDetails .sBox img {
+    width: 70px;
+    height: 62px;
+}
+.blogDetails .search {
+    background: #f1f6fa;
+    padding: 18px;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.blogDetails .search input {
+    all: unset;
+    width: 100%;
+}
+.blogDetails .one {
+    background: #f1f6fa;
+    margin-bottom: 30px;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.blogDetails .one h1 {
+    font-family: cursive;
+    opacity: 0.7;
+    position: relative;
+}
+.blogDetails .one h1::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 2.5px;
+    background: #9dca00;
+    bottom: -6px;
+    left: 0;
+}
+.blogDetails .one .sBox {
+    display: flex;
+    gap: 15px;
+}
+.blogDetails .one .sInfo .date {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    opacity: 0.8;
+}
+.blogDetails .one .sInfo .date svg{
+    color: #9dca00;
+}
+.blogDetails .one .sInfo {
+    position: relative;
+}
+.blogDetails .one h2 {
+    font-size: 15px;
+    opacity: 0.7;
+    font-family: cursive;
+    position: absolute;
+    bottom: 0;
+}
+.blogDetails ul.postCat {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 0 0 0 20px;
+}
+.blogDetails ul.postCat li {
+    opacity: 0.7;
+    cursor: pointer;
+}
+.blogDetails ul.postCat li:hover {
+    color: #9dca00;
+}
+.blogDetails ul.top {
+    padding: 0;
+}
+.blogDetails ul.top li {
+    list-style: none;
+    color: #515050;
+    border: 1px solid #ddd6d6;
+    padding: 6px 13px;
+    display: inline-block;
+    margin-bottom: 3px;
+    font-size: 13px;
+    margin-right: 3px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.15s;
+}
+.blogDetails ul.top li:hover {
+    background-color: #9dca00;
+    color: white;
+    border-color: #9dca00;
+}
+.blogDetails .qoute {
+    background: #f1f6fa;
+    font-size: 20px;
+    border-left: 2px solid #9dca00;
+    padding: 30px;
+    line-height: 30px;
+}
+.blogDetails .qoute q {
+    opacity: 0.7;
+    font-size: 18px;
+}
+.blogDetails .qoute h3 {
+    color: #9dca00;
+    margin-top: 4px;
+    letter-spacing: 1.2px;
+    font-size: 17px;
+}
+.blogDetails .lastInfo {
+    display: flex;
+    justify-content: space-between;
+}
+.blogDetails .someInfo .lastInfo div.tags {
+    display: flex;
+    margin-top: 15px;
+}
+.blogDetails .someInfo .lastInfo ul.tags {
+    display: flex;
+    gap: 8px;
+    padding-left: 5px;
+    align-items: center;
+    height: fit-content;
+    margin-top: -4px;
+}
+.blogDetails .someInfo .lastInfo ul.tags li {
+    list-style: none;
+    background: #9dca00;
+    height: fit-content;
+    padding: 6px 8px;
+    color: white;
+    opacity: 1;
+    cursor: pointer;
+}
+.blogDetails .someInfo .lastInfo ul.social {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    opacity: 0.6;
+    margin-top: 12px;
+    gap: 3px;
+}
+.blogDetails .someInfo .lastInfo ul.social li {
+    list-style: none;
+    cursor: pointer;
+}
+.blogDetails .someInfo .lastInfo ul.social li:hover {
+    color: #9dca00;
+    opacity: 1 !important;
+}
+.blogDetails .comments {
+    padding: 100px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.blogDetails .comments h1 {
+    font-family: cursive;
+    font-size: 22px;
+    margin-bottom: -20px;
+}
+.blogDetails .comments img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.blogDetails .comments .comment {
+    display: flex;
+    gap: 25px;
+    max-width: 800px;
+    position: relative;
+}
+.blogDetails .comments .comment .name {
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+.blogDetails .comments .comment .commentDate {
+    opacity: 0.7;
+    font-family: cursive;
+    margin-bottom: 12px;
+}
+.blogDetails .comments .comment .para {
+    opacity: 0.7;
+    font-size: 15px;
+}
+.blogDetails .comments .comment button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #9dca00;
+    padding: 5px 10px;
+    color: #FFF;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.blogDetails .comments .leftSeca {
+    left: 35px;
+}
+.blogDetails .leaveAcomment {
+    padding: 100px 80px;
+    max-width: 800px;
+    position: relative;
+}
+.blogDetails .leaveAcomment h1 {
+    font-family: cursive;
+    font-size: 22px;
+    opacity: 0.8;
+    margin-bottom: 40px;
+}
+.blogDetails .leaveAcomment textarea {
+    height: 150px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.blogDetails .leaveAcomment .nameAEmail {
+    width: 100%;
+    display: flex;
+    gap: 25px;
+}
+.blogDetails .leaveAcomment .nameAEmail input{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 12px 12px;
+    outline: none;
+    border: 1px solid #80808082;
+}
+.blogDetails .leaveAcomment .nameAEmail input:focus, .blogDetails .leaveAcomment textarea:focus {
+    border-color: #9dca00;
+}
+.blogDetails .leaveAcomment button {
+    background-color: #9dca00;
+    padding: 12px 16px;
+    color: #FFF;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+@media (max-width: 991px) {
+    .blogDetails .almostMain {
+        padding: 100px 20px;
+    }
+}
+@media (max-width: 767px) {
+    .blogDetails .almostMain {
+        flex-direction: column;
+    }
+    .blogDetails .sections  {
+        width: 100% !important;
+    }
+    .blogDetails .lastInfo {
+        flex-direction: column;
+    }    
+    .blogDetails .comments {
+        padding: 80px 50px;
+    }
+    .blogDetails .comments .comment .para {
+        font-size: 12px;
+    }
+    .blogDetails .leaveAcomment {
+        padding: 80px 20px;
+    }
+    .blogDetails .leaveAcomment .nameAEmail {
+        flex-direction: column;
+    }
+    .blogDetails .leaveAcomment .nameAEmail input {
+        width: 100%;
+    }
+}
+@media (max-width: 576px) {
+    .blogDetails .someInfo p {
+        line-height: 1.4;
+        font-size: 12px;
+    }
+    .blogDetails .almostMain .someInfo {
+        padding: 15px;
+    }
+    .blogDetails .someInfo .lastInfo ul.tags {
+        flex-wrap: wrap;
+    }
+    .blogDetails .someInfo h1 {
+        font-size: 16px;
+    }
+    .blogDetails .comments {
+        padding: 80px 22px;
+    }
+    .blogDetails .comments .leftSeca {
+        left: 20px;
+    }
+    .blogDetails .comments .comment {
+        flex-direction: column;
+    } 
+    .blogDetails .qoute {
+        font-size: 15px;
+        padding: 15px;
+        line-height: 25px;
+    } 
+    .blogDetails .qoute q {
+        font-size: 15px;
+    }
+}

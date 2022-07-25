@@ -1,0 +1,209 @@
+.blogtwo button {
+    border: 2px solid transparent !important;
+}
+.blogtwo button:hover {
+    border-color: #9dca00 !important;
+    background-color: transparent !important;
+    color: #515050 !important;
+    border-radius: 0;
+}
+.blogtwo .mainBlogTwo {
+    box-sizing: border-box;
+    height: 400px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-color: rgb(170, 169, 169);
+    position: relative;
+}
+.blogtwo .mainBlogTwo .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+    flex-direction: column;
+    color: #000;
+    opacity: 0.8;
+}
+.blogtwo .almostMain {
+    padding: 100px 80px;
+    display: flex;
+    gap: 30px;
+}
+.blogtwo .almostMain .sections {
+    width: 60%;
+}
+.blogtwo .almostMain .section {
+    width: 100%;
+}
+.blogtwo .almostMain .img {
+    width: 100%;
+    overflow: hidden;
+}
+.blogtwo .almostMain .img img{
+    width: 100%;
+}
+.blogtwo .almostMain .img img:hover {
+    animation-name: anim;
+    animation-duration: 0.4s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+.blogtwo .almostMain .someInfo {
+    border: 1px solid rgb(175, 175, 175);
+    padding: 30px;
+    border-top: none;
+    top: -6px;
+    position: relative;
+}
+.blogtwo small {
+    opacity: 0.6;
+}
+.blogtwo .someInfo h1 {
+    font-family: cursive;
+    font-size: 22px;
+    margin: 20px 0;
+    color: #9dca00;
+}
+.blogtwo .someInfo p {
+    margin: 20px 0;
+    line-height: 1.6;
+    color: gray;
+    font-size: 15px;
+}
+.blogtwo .someInfo button {
+    padding: 15px 35px 15px;
+    color: #fff;
+    vertical-align: middle;
+    box-shadow: 0 0 1px transparent;
+    background: #9dca00;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+}
+.blogtwo .package:not(:last-child) {
+    padding-bottom: 20px;
+}
+.blogtwo .sBox img {
+    width: 70px;
+    height: 62px;
+}
+.blogtwo .search {
+    background: #f1f6fa;
+    padding: 18px;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.blogtwo .search input {
+    all: unset;
+    width: 100%;
+}
+.blogtwo .one {
+    background: #f1f6fa;
+    margin-bottom: 30px;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.blogtwo .one h1 {
+    font-family: cursive;
+    opacity: 0.7;
+    position: relative;
+}
+.blogtwo .one h1::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 2.5px;
+    background: #9dca00;
+    bottom: -6px;
+    left: 0;
+}
+.blogtwo .one .sBox {
+    display: flex;
+    gap: 15px;
+}
+.blogtwo .one .sInfo .date {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    opacity: 0.8;
+}
+.blogtwo .one .sInfo .date svg{
+    color: #9dca00;
+}
+.blogtwo .one .sInfo {
+    position: relative;
+}
+.blogtwo .one h2 {
+    font-size: 15px;
+    opacity: 0.7;
+    font-family: cursive;
+    position: absolute;
+    bottom: 0;
+}
+.blogtwo ul.postCat {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 0 0 0 20px;
+}
+.blogtwo ul.postCat li {
+    opacity: 0.7;
+    cursor: pointer;
+}
+.blogtwo ul.postCat li:hover {
+    color: #9dca00;
+}
+.blogtwo ul.top {
+    padding: 0;
+}
+.blogtwo ul.top li {
+    list-style: none;
+    display: inline-block;
+    color: #515050;
+    border: 1px solid #ddd6d6;
+    padding: 6px 13px;
+    margin-bottom: 3px;
+    font-size: 13px;
+    margin-right: 3px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.15s;
+}
+.blogtwo ul.top li:hover {
+    background-color: #9dca00;
+    color: white;
+    border-color: #9dca00;
+}
+/* Media */
+@media (max-width: 991px) {
+    .blogtwo .almostMain {
+        padding: 100px 20px;
+    }
+}
+@media (max-width: 767px) {
+    .blogtwo .almostMain {
+        flex-direction: column;
+    }
+    .blogtwo .sections  {
+        width: 100% !important;
+    }
+}
+@media (max-width: 576px) {
+    .blogtwo .someInfo p {
+        line-height: 1.4;
+        font-size: 12px;
+    }
+    .blogtwo .almostMain .someInfo {
+        padding: 15px;
+    }
+    .blogtwo .someInfo h1 {
+        font-size: 16px;
+    }
+}

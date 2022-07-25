@@ -1,0 +1,159 @@
+.singleSer .mainSingle{
+    box-sizing: border-box;
+    height: 400px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-color: rgb(170, 169, 169);
+    position: relative;
+}
+.singleSer .mainSingle .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+    flex-direction: column;
+    color: #000;
+    opacity: 0.8;
+}
+.singleSer .sections {
+    padding: 100px 80px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    gap: 25px;
+}
+.singleSer .sections .mainSection {
+    width: 70%;
+}
+.singleSer .sections .mainimg {
+    max-width: 100%;
+}
+.singleSer .mainSection h1 {
+    font-family: cursive;
+    font-size: 24px;
+    margin: 20px 0;
+}
+.singleSer .mainSection p {
+    line-height: 1.4;
+    opacity: 0.7;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.singleSer .mainBoxs {
+    display: flex;
+    width: 100%;
+    gap: 25px;
+}
+.singleSer .mainBoxs .mainBox {
+    padding: 40px 35px 30px;
+    background: #f1f6fa;
+    text-align: center;
+}
+.singleSer .mainBoxs .mainBox p {
+    line-height: 1.6;
+    opacity: 0.8;
+    font-size: 14px;
+}
+.singleSer .secondSection {
+    width: 30%;
+    box-sizing: border-box;
+}
+.singleSer .secondSection .some {
+    padding: 0;
+}
+.singleSer .secondSection .some li{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 1px;
+    text-align: left;
+    padding: 18px 5px 18px 18px;
+    border-radius: 2px;
+    background: #f1f6fa;
+    border-left: 2px solid transparent;
+    box-sizing: border-box;
+    color: darkgrey;
+    cursor: pointer;
+}
+.singleSer .secondSection .some li:hover {
+    color: #9fcc02;
+    border-color: #9fcc02;
+}
+.singleSer .secondSection .contact {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background: #f1f6fa;
+    padding: 30px 35px 15px;
+}
+.singleSer .secondSection .contact:hover h5 {
+    color: #9fcc02;
+}
+.singleSer .secondSection .contact h1, .singleSer .secondSection .downloads h1 {
+    font-family: cursive;
+    opacity: 0.7;
+    margin-bottom: 20px;
+}
+.singleSer .secondSection .contact h5 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+}
+.singleSer .secondSection .downloads {
+    background: #f1f6fa;
+    padding: 30px 35px 25px;
+}
+.singleSer .secondSection .downloads p {
+    opacity: 0.7;
+    margin-bottom: 20px;
+}
+.singleSer .secondSection .downloads button {
+    color: #515050;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 13px 26px;
+    border-radius: 5px;
+    border: 1px solid #9dca00;
+    text-align: center;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+    transition: 0.15s;
+}
+.singleSer .secondSection .downloads button:hover {
+    background-color: #9dca00;
+    color: white;
+}
+.singleSer .secondSection .downloads button:first-of-type {
+    margin-bottom: 12px;
+}
+@media (max-width: 991px) {
+    .singleSer .sections {
+        flex-direction: column;
+    }
+    .singleSer .mainSection {
+        width: 100% !important;
+    }
+    .singleSer .secondSection {
+        width: 100% !important;
+    }
+}
+@media (max-width: 767px) {
+    .singleSer  .sections {
+        padding: 100px 20px;
+    }
+}
+@media (max-width: 576px) {
+    .singleSer .mainBoxs {
+        flex-direction: column;
+    }
+    .singleSer .mainSection p {
+        line-height: 1.6;
+        font-size: 12px;
+    }
+}

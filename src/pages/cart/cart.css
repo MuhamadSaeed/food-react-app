@@ -1,0 +1,173 @@
+.cart button {
+    border: 2px solid transparent !important;
+}
+.cart button:hover {
+    border-color: #2b343b !important;
+    background-color: transparent !important;
+    color: #2b343b !important;
+    border-radius: 0;
+}
+.information * {
+    box-sizing: border-box;
+}
+.cart .mainCart{
+    box-sizing: border-box;
+    height: 400px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-color: rgb(170, 169, 169);
+    position: relative;
+}
+.cart .mainCart .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+    flex-direction: column;
+    color: #000;
+    opacity: 0.8;
+}
+.cart .almostMain {
+    padding: 100px 80px;
+}
+.cart .almostMain h1 {
+    font-size: 30px;
+    opacity: 0.7;
+    font-family: cursive;
+    margin-bottom: 50px;
+}
+.cart table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.cart thead th:not(:last-child) {
+    border: 0.5px solid #d7d7d7;
+    padding: 20px;
+}
+.cart tbody td {
+    border: 0.5px solid #d7d7d7;
+    padding: 20px;
+}
+.cart table th, .cart table td {
+    text-align: center;
+    vertical-align: middle;
+}
+.cart table img {
+    width: 100px;
+}
+.cart table input {
+    width: 50px;
+    padding: 6px;
+    border: 1px solid #c3c0c0;
+    outline: none;
+}
+.cart table thead th {
+    opacity: .5;
+}
+.information {
+    padding: 0 80px 100px ;
+}
+.information .boxs {
+    display: flex;
+    width: 100%;
+    gap: 25px;
+}
+.information .box {
+    width: calc(100% / 3);
+}
+.information h1 {
+    font-family: cursive;
+    opacity: 0.7;
+    margin-bottom: 50px;
+    font-size: 28px;
+}
+.information label {
+    opacity: 0.7;
+}
+.information input {
+    background: #f0f0f0 none repeat scroll 0 0;
+    border: none;
+    height: 35px;
+    margin: 20px 0;
+    padding: 10px;
+    width: 100%;
+    outline: none;
+}
+.information button {
+    background: #2b343b;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    text-align: center;
+    text-transform: capitalize;
+    width: auto;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+}
+.information select {
+    background: #f0f0f0;
+    border: none;
+    height: 37px;
+    padding: 0 10px;
+    width: 100%;
+    color: #333;
+    outline: none;
+    border: none;
+    margin: 20px 0;
+}
+.information option:hover {
+    background-color: #9dca00 !important;
+}
+.information .box:last-child {
+    background: #f5f5f5 none repeat scroll 0 0;
+    padding: 35px;
+}
+.information .box:last-child .div {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    opacity: 0.6;
+}
+.information .Total {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.information .Total .num {
+    font-size: 22px;
+    color: #9dca00;
+}
+.information .box:last-child button {
+    margin: 40px auto 0;
+}
+.cart .table {
+    overflow-x: auto;
+}
+@media (max-width: 991px) {
+    .information .boxs {
+        flex-direction: column;
+    }
+    .information .box {
+        width: 100%;
+    }
+}
+@media (max-width: 767px) {
+    .information{
+        padding: 0 20px 100px ;
+    }
+    .cart .almostMain {
+        padding: 100px 20px;
+    }
+}

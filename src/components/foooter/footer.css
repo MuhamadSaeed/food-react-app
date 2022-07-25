@@ -1,0 +1,144 @@
+.footer {
+    background: #2b343b;
+    color: #d5d5d5;
+}
+.footer .container {
+    padding: 100px 100px 20px ;
+}
+.footer .boxs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+}
+.footer .boxs .smBox img {
+    width: 80px;
+    height: 80px;
+}
+.footer .boxOne p {
+    font-size: 14px;
+    margin: 10px 0;
+    line-height: 1.7;
+}
+.footer .boxOne ul {
+    display: flex;
+    gap: 8px;
+    padding: 0;
+}
+.footer  li {
+    list-style: none;
+    cursor: pointer;
+}
+.footer ul {
+    padding: 0;
+}
+.footer li:hover {
+    color: #9dca00;
+}
+.footer .box h1 {
+    font-size: 22px;
+}
+.footer .boxTwo {
+    margin-top: 10px;
+}
+.footer .boxTwo ul {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.footer .boxTwo li {
+    font-size: 14px;
+}
+.footer .boxTwo svg {
+    padding-right: 4px;
+    font-size: 14px;
+    color: #9dca00;
+}
+.footer .boxThree {
+    margin-top: 8px;
+}
+.footer .boxThree .smBox {
+    display: flex;
+    gap: 12px;
+    padding-top: 25px;
+}
+.footer .boxThree .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer small {
+    color: gray;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 11px;
+}
+.footer small svg {
+    color: #9dca00;
+}
+.footer .boxThree h3 {
+    font-family: cursive;
+    font-size: 12px;
+}
+.footer .boxFour {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.footer .boxFour p {
+    line-height: 1.7;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer .boxFour input {
+    background: #3b3f46;
+    box-shadow: none;
+    color: #ddd;
+    line-height: 40px;
+    padding-left: 30px;
+    width: 100%;
+    margin-top: 5px;
+    border: 1px solid transparent;
+    outline: none;
+    box-sizing: border-box;
+}
+.footer button {
+    background-color: #9dca00;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: fit-content;
+    margin-top: 8px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0.3s;
+}
+.footer button:hover {
+    border-color: #9dca00;
+    background-color: transparent;
+    border-radius: 0;
+}
+.footer .copyRight {
+    text-align: center;
+    margin-top: 80px;
+}
+@media (max-width: 991px) {
+    .footer .boxs {
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+}
+@media (max-width: 767px) {
+    .footer .container {
+        padding: 100px 20px;
+    }
+    .footer .boxs {
+        grid-template-columns: 1fr;
+    }
+    .footer .copyRight {
+        font-size: 14px;
+        text-align: left;
+    }
+}

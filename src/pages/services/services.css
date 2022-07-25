@@ -1,0 +1,27 @@
+.servicesPage .mainser{
+    box-sizing: border-box;
+    height: 400px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-color: rgb(170, 169, 169);
+    position: relative;
+}
+.servicesPage .mainser .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+    flex-direction: column;
+    color: #000;
+    opacity: 0.8;
+}
+.servicesPage .svrs > :last-child h1, .servicesPage .svrs > :last-child h4 {
+    display: none;
+}
+.servicesPage .svrs > :last-child {
+    padding-top: 0;
+}
